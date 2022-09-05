@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+h2{
+  font-weight: normal;
+  font-size: 4em;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 500px;
+  color: #F90;
+  text-align: center;
+
+}
+header{
+  height: 160px;
+  background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+}
+
+#form{
+  height: 100%; 
+  background-color: #efefea;
+  overflow: hidden;
+  position: relative;
+
+  
+}
+form{
+  margin: 0 auto;
+ 
+  padding-top: 40px;
+  color: red;
+  position: relative;
+  
+  
+}
+label, input, textarea{
+  display: block; 
+}
+label{
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding-left: 20px;
+  c
+}
+.formgroup, .formgroup-active, .formgroup-error{
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 10.5%;
+  transition: background-image 0.7s;
+  -webkit-transition: background-image 0.7s;
+  -moz-transition: background-image 0.7s;
+  -o-transition: background-image 0.7s;
+  width: 566px;
+  padding-top: 2px;
+}
+
+.formgroup{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif'); 
+}
+.formgroup-active{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
+}
+.formgroup-error{
+  background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
+  color: red;
+}
+
+
+

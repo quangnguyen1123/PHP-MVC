@@ -1,0 +1,53 @@
+.logo{
+	background-color: #d9d9d9;
+	
+}
+
+.container-fluid{
+	margin-left: 100px;
+}
+.content{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.dropdown{
+   position: relative;
+   display: inline-block;
+   margin-left: 50px;
+}
+/*sub-menu*/
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: #b2b2b2;
+   z-index: 1;
+   list-style: none;
+}
+.dropdown:hover .dropdown-content{
+   display: block;
+}
+.dropdown .dropdown-content li:hover a{
+	color: red;
+}
+
+.image img{
+	height: 300px;
+	width: 100%;
+}
+.image{
+	background-color: white;
+	margin-top: 20px;
+}
+
+
+.row1 a{
+	text-decoration: none;
+	margin-left: 40px;
+}
+.row th:hover a{
+	color: red;
+}
+
+.footer{
+	background-color: #42f5cb;
+}
